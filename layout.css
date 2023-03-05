@@ -1,0 +1,106 @@
+body {
+    text-align: center;
+    font-size: 20px;
+    background-color: BlanchedAlmond;
+    font: 20px 'Roboto', sans-serif;
+}
+
+h1 {
+    font: 60px 'Dosis', sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    padding: 100px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+h2 {
+    font: 32px 'Rasa', serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 30px;
+    color:#996600;
+}
+
+p {
+    line-height: 30px;
+    margin: auto;
+}
+
+
+img {
+    width: 60%;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.titleSpace {
+    position: relative;
+    height: 800px;
+    min-height: 500px;
+    width: 100%;
+    background: #161415 url("cat1.jpg") no-repeat top center;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+.introductionP {
+    font-size: 20px;
+    font-weight: bolder;
+    max-width: 900px;
+    margin: 60px;
+}
+
+.content {
+    padding: 80px;
+}
+
+.contentP {
+    margin: auto;
+    max-width: 1000px;
+}
+
+li {
+    list-style: none;
+    font: 20px 'Roboto', sans-serif;
+    font-weight: bold;
+    line-height: 30px;
+}
+dl {
+    line-height: 30px;
+}
+dt {
+    padding: 18px;
+}
+a:link {
+    text-decoration: none;
+}
+
+.readMoreButtonB {
+    display: block;
+    background-color: #996600;
+    width: 40%;
+    max-width: 250px;
+    text-align: center;
+    font-weight: bold;
+    font: 25px 'Roboto', sans-serif;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+.readMoreButtonB:link {
+    color: #fff;
+}
+
+.readMoreButtonB:visited {
+    color: #fff;
+}
+
+.readMoreButtonB:hover {
+    background-color: #999966;
+}
